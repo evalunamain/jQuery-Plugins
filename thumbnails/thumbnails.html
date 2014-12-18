@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thumbnails</title>
+    <script src="./jquery-2.1.1.js"></script>
+    <script src="./thumbnails.js"></script>
+    <link href="./thumbnails.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="thumbnails">
+      <section class="active"></section>
+
+      <div class="gutter">
+        <a href="javascript:void(0)" class="nav left">&lt;</a>
+
+        <section class="gutter-images">
+          <img src="img/capybara1.jpg"/>
+          <img src="img/capybara2.jpg"/>
+          <img src="img/capybara3.jpg"/>
+          <img src="img/capybara4.jpg"/>
+          <img src="img/capybara5.jpg"/>
+          <img src="img/capybara6.jpg"/>
+          <img src="img/capybara7.jpg"/>
+          <img src="img/capybara8.jpg"/>
+          <img src="img/capybara9.jpg"/>
+          <img src="img/capybara10.jpg"/>
+        </section>
+
+        <a href="javascript:void(0)" class="nav right">&gt;</a>
+        <div class="group"></div>
+      </div>
+    </div>
+
+    <script>
+      $(function() {
+        $('.thumbnails').thumbnails();
+      })
+    </script>
+
+  </body>
+</html>
