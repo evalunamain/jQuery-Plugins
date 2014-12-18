@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kittens</title>
+    <script src="./jquery-2.1.1.js"></script>
+    <script src="./kitten.js"></script>
+    <link href="./kitten.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="items">
+        <img src="img/cats1.jpg">
+        <img src="img/cats2.jpg">
+        <img src="img/cats3.jpg">
+        <img src="img/cats4.jpg">
+        <img src="img/cats5.jpg">
+        <img src="img/cats6.jpg">
+        <img src="img/cats7.jpg">
+      </div>
+
+
+      <a href="javascript:void(0)" class="slide-right">Prev</a>
+      <a href="javascript:void(0)" class="slide-left">Next</a>
+    </div>
+
+  <script>
+    $(function() {
+      $('.carousel').carousel();
+    })
+  </script>
+
+  </body>
+</html>
