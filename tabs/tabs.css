@@ -1,0 +1,58 @@
+html, body, ul, li, a, section, article, p, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  background: transparent;
+  color: inherit;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+p {
+
+}
+
+h3 {
+  font-size: 20px;
+}
+
+section {
+
+}
+
+article {
+  display: none;
+}
+
+a {
+
+}
+
+a.active {
+  font-weight: bold;
+}
+
+article.active {
+  display: block;
+  /*opacity: 1;*/
+  -webkit-transition: opacity 1000ms;
+}
+
+.transitioning {
+  display: block;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+}

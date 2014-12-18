@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabs</title>
+    <script src="./jquery-2.1.1.js"></script>
+    <script src="./tabs.js"></script>
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <ul class='tabs' data-content-tabs="#content-tabs">
+      <li><a href="#leonberger" class="active">Leonberger</a></li>
+      <li><a href="#newfoundland">Newfoundland</a></li>
+      <li><a href="#bichonfrise">Bichon Frise</a></li>
+    </ul>
+    <section id="content-tabs">
+      <article class="tab-pane active" id="leonberger">
+        <h3>Leonberger</h3>
+        <p>This is Eva's favorite breed of dog. They're super hairy. Also super cute.</p>
+      </article>
+      <article class="tab-pane" id="newfoundland">
+        <h3>Newfoundland</h3>
+        <p>The Newfoundland, known as the "Gentle Giant," is a dog of courage, devotion, and loyalty. They are huge dogs! They were bred to be working dogs who spend all of their waking time with their family. They will want and need to be part of your family. Today, Newfs excel at water work and carting and do well at obedience. They also make excellent therapy dogs. However, it is important to get started on obedience training early with a Newfoundland, as a rambunctious, unlearned six-month-old Newfoundland can pull you out into traffic on the end of a leash because of his size and strength. The Newfoundland is docile and intelligent, and responds well to training, as he is eager to please you. The Newfoundland has a sweet disposition and is affectionate, but not overly demonstrative. He needs regular exercise and likes to spend time outdoors. He will need a fenced-in yard (and the fence should be at least six feet high). However, he is too lazy to get his own exercise and will probably need you to join him to convince him it's a good idea. Newfoundlands are excellent with children, and are very tolerant, so children will have to be taught to be gentle with their Newfoundland. However, the Newf is clumsy and huge and can accidentally knock children over. He is not overly protective, but his size might be enough to deter evildoers. The Newfoundland can be demanding of your time and attention and does not do well if ignored. A bored or lonely Newfoundland is a destructive giant. They will destroy your garden in a minute. Speaking of mayhem, the Newf is not the dog for the house-proud. They slobber all over everything, and they bring the world back into the house with them in their fur and on their feet. They also shed giant balls of fur. And they will want to sleep in your bed. Newfoundlands are loving and loyal and devoted and make excellent pets. They are emotionally sensitive and perceptive of your mood. They are fun, entertaining, and benevolent. And their nose is usually the exact height as your dining room table. Own one and your life will never be the same.</p>
+      </article>
+      <article class="tab-pane" id="bichonfrise">
+        <h3>Bichon Frise</h3>
+        <p>The Bichon Frise is an incredibly cheerful little dog who loves to be the center of attention. He likes to think he runs the household, and will want to be at your heels or in your lap at all times. They are naturally gentle, intelligent, playful, and happy. They make a good family dog, but many breeders do not recommend they live in homes with small children, because the children could easily accidentally injure them. And if harassed by a child, a Bichon Frise will get snappy. They do, however, get along well with other household pets, as long as they get lots (and lots) of their human's attention. They do not do well being alone for hours at a time, and can start to chew at their own skin and fur out of distress. They can also bark out of boredom and loneliness, which will not necessarily endear him to your neighbors. Speaking of barking, the Bichon Frise is good at it, and will bark often. They have great hearing and will bark at everything. They do not need lots of exercise, but will require regular short walks. They are social dogs and like to get out and about and see people. The Bichon Frise does best with a loving, patient owner, as they are notoriously slow to housetrain.</p>
+      </article>
+    </section>
+    <script>
+      $(function() {
+        $('.tabs').tabs();
+      })
+    </script>
+  </body>
+</html>
